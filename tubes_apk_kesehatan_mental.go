@@ -70,7 +70,7 @@ func urutSkorTotal(A *tabTotal, N *int) { // sort
 		idx = pass - 1
 		i = pass
 		for i < N{
-			if A[i].totalScore > A[idx].totalScore{
+			if A[i].totalScore > A[idx].soal{
 				idx = i
 			}
 			i = i + 1
